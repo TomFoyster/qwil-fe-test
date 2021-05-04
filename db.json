@@ -1,0 +1,150 @@
+{
+  "chats": [
+    {
+      "id": "1",
+      "title": "Invoice - 18633",
+      "message": {
+        "authorName": "Carrie Edwards",
+        "authorId": "2",
+        "content": "Just checking it over now.",
+        "timestamp": 1620155003723
+      },
+      "archived": false,
+      "participants": ["John Stevens", "Carrie Edwards"]
+    },
+    {
+      "id": "2",
+      "title": "Investment Strategy",
+      "message": {
+        "authorName": "Carrie Edwards",
+        "authorId": "2",
+        "content": "We will send it over",
+        "timestamp": 1620133889345
+      },
+      "archived": false,
+      "participants": ["Sarah Phillips", "Carrie Edwards"]
+    },
+    {
+      "id": "3",
+      "title": "Follow up",
+      "message": {
+        "authorName": "Barry Edwards",
+        "authorId": "3",
+        "content": "Thanks. I'll call you",
+        "timestamp": 1620131688345
+      },
+      "archived": false,
+      "participants": ["John Stevens", "Barry Edwards"]
+    },
+    {
+      "id": "4",
+      "title": "Transfer Request",
+      "message": {
+        "authorName": "John Stevens",
+        "authorId": "1",
+        "content": "That has been actioned.",
+        "timestamp": 1620131485345
+      },
+      "archived": false,
+      "participants": ["John Stevens", "Sarah Phillips", "Carrie Edwards"]
+    },
+    {
+      "id": "5",
+      "title": "Statement",
+      "message": {
+        "authorName": "John Stevens",
+        "authorId": "1",
+        "content": "I will send them to you now",
+        "timestamp": 1620131464345
+      },
+      "archived": false,
+      "participants": ["John Stevens", "Carrie Edwards"]
+    },
+    {
+      "id": "6",
+      "title": "Holiday Booking",
+      "message": {
+        "authorName": "John Stevens",
+        "authorId": "1",
+        "content": "Holiday for 4th is approved.",
+        "timestamp": 1620155004423
+      },
+      "archived": true,
+      "participants": ["John Stevens", "Carrie Edwards"]
+    },
+    {
+      "id": "7",
+      "title": "Merry Christmas",
+      "message": {
+        "authorName": "John Stevens",
+        "authorId": "1",
+        "content": "Merry Christmas Carrie",
+        "timestamp": 1608822004423
+      },
+      "archived": true,
+      "participants": ["John Stevens", "Carrie Edwards"]
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "authorName": "John Stevens",
+      "authorId": "1",
+      "content": "Hi Carrie",
+      "readBy": "all"
+    },
+    {
+      "id": "2",
+      "authorName": "Carrie Edwards",
+      "authorId": "2",
+      "content": "Hi John. How are you?",
+      "readBy": "all"
+    },
+    {
+      "id": "3",
+      "authorName": "John Stevens",
+      "authorId": "1",
+      "content": "Great. Did you get the invoice?",
+      "readBy": "all"
+    },
+    {
+      "id": "4",
+      "authorName": "Carrie Edwards",
+      "authorId": "2",
+      "content": "Just checking it over now.",
+      "readBy": "some"
+    },
+    {
+      "id": "3",
+      "authorName": "John Stevens",
+      "authorId": "1",
+      "content": "Great. Did you get the invoice?",
+      "readBy": "all"
+    },
+    {
+      "id": "4",
+      "authorName": "Carrie Edwards",
+      "authorId": "2",
+      "content": "Just checking it over now.",
+      "readBy": "some"
+    }
+  ],
+  "avatars": [
+    {
+      "id": "1",
+      "url": "https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    {
+      "id": "2",
+      "url": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    {
+      "id": "3",
+      "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+    },
+    {
+      "id": "4",
+      "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    }
+  ]
+}
