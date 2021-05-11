@@ -26,7 +26,7 @@ We would like you to write some tests but you are free to decide what functional
 
 ## API
 
-In this repo, we have used `json-server` which can be used to construct a simple REST API. The command, `yarn api` will spin up a REST API on port 3001.
+In this repo, we have used `json-server` which can be used to construct a simple REST API. You will need to first globally install `json-server` and the command, `yarn api` will spin up a REST API on port 3001.
 
 Available endpoints are:
 
