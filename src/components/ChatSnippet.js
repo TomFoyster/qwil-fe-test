@@ -17,6 +17,10 @@ const Section = styled.section`
   width: 315px;
   padding: 10px 5px;
   background-color: #${(props) => (props.active ? "e1e3e8" : "fff")};
+
+  &:hover {
+    background-color: #f0f1f5;
+  }
 `;
 
 const Image = styled.img`

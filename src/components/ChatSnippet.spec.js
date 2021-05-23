@@ -52,6 +52,10 @@ describe("ChatSnippet", () => {
         background-color: #e1e3e8;
       }
 
+      .c1:hover {
+        background-color: #f0f1f5;
+      }
+
       .c2 {
         width: 50px;
         height: 50px;
