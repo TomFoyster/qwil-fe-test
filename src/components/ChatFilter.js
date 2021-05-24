@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const Filter = styled.div`
@@ -57,6 +58,11 @@ const ChatFilter = ({ filterBy, handleFilterChange }) => {
       <NewChat>+</NewChat>
     </Filter>
   );
+};
+
+ChatFilter.propTypes = {
+  filterBy: PropTypes.oneOf(["active", "archived", "all"]),
+  handleFilterChange: PropTypes.func,
 };
 
 export default ChatFilter;

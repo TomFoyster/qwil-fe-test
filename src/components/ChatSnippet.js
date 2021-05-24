@@ -1,5 +1,6 @@
 import { format } from "date-fns";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const SelectChat = styled.button`
   display: block;
@@ -61,11 +62,7 @@ const Content = styled.p`
   margin: 0;
 `;
 
-const ChatSnippet = ({
-  details = {},
-  active = false,
-  setActiveChat = () => {},
-}) => {
+const ChatSnippet = ({ details, active = false, setActiveChat = () => {} }) => {
   const { id, title, message } = details;
   const { timestamp, authorName, content, authorId } = message;
 
@@ -86,6 +83,23 @@ const ChatSnippet = ({
       </Section>
     </SelectChat>
   );
+};
+
+ChatSnippet.propTypes = {
+  details: PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    message: PropTypes.shape({
+      authorName: PropTypes.string,
+      authorId: PropTypes.string,
+      content: PropTypes.string,
+      timestamp: PropTypes.number,
+    }),
+    archived: PropTypes.bool,
+    participants: PropTypes.array,
+  }).isRequired,
+  active: PropTypes.bool,
+  setActiveChat: PropTypes.func,
 };
 
 export default ChatSnippet;
